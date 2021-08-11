@@ -64,6 +64,58 @@ body {
   position: relative;
 }
 
+/* 로그인 CSS*/
+.login-logo {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.login-logo img {
+  width: 200px;
+}
+
+.login-form {
+  width: 400px;
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 180px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.text-field {
+  font-size: 14px;
+  width: 380px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  font-size: 14px;
+  background-color: #6d7976;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /*풋터 부분 CSS*/
 .footerlogo hr {
   border: 0px;
