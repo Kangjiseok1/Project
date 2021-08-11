@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+/* 헤더부분 CSS */
 #name {
   display: block;
   margin-left: auto;
@@ -8,7 +9,7 @@ body {
   margin-top: 30px;
 }
 
-/* 로그인, 회원가입, 고객센터 */
+/* 메인바 CSS */
 .mainvar {
   display: block;
   text-align: right;
@@ -25,13 +26,13 @@ body {
   margin-right: 10px;
 }
 
+/*메인바에 마우스 올릴 때 스타일*/
 .mainvar a:hover {
-  /*메뉴바에 마우스 올릴 때 스타일*/
   text-decoration: none;
   font-weight: 700;
 }
 
-/*메뉴바*/
+/*메뉴바 CSS*/
 .menubar {
   display: block;
   text-align: center;
@@ -51,8 +52,8 @@ body {
   margin-right: 20px;
 }
 
+/*메뉴바에 마우스 올릴 때 스타일*/
 .menubar a:hover {
-  /*메뉴바에 마우스 올릴 때 스타일*/
   text-decoration: none;
   font-weight: 900;
   color: black;
@@ -61,4 +62,23 @@ body {
 
 .container {
   position: relative;
+}
+
+/*풋터 부분 CSS*/
+.footerlogo hr {
+  border: 0px;
+  height: 2px;
+  background-color: #333;
+  margin-bottom: 40px;
+}
+
+.footerlogo {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.footerlogo a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
 }
