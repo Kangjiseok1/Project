@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+/*
+배경색 - #333
+*/
 /* 헤더부분 CSS */
 #name {
   display: block;
