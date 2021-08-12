@@ -67,16 +67,17 @@ body {
   position: relative;
 }
 
-/* 로그인 CSS*/
-.login-logo {
+/* 로그인, 회원가입에 쓰일 이미지*/
+.page-logo {
   margin-top: 100px;
   margin-bottom: 40px;
 }
 
-.login-logo img {
+.page-logo img {
   width: 200px;
 }
 
+/* 로그인 CSS*/
 .login-form {
   width: 400px;
   background-color: #333;
@@ -119,6 +120,116 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* 회원가입 CSS*/
+.join-form {
+  width: 400px;
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 180px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.join-form h3 {
+  color: white;
+  font-size: 13px;
+}
+
+#bir-form {
+  display: table;
+  width: 100%;
+}
+
+/*380*/
+#bir-yy {
+  font-size: 14px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-right: 10px;
+}
+
+#bir-dd {
+  font-size: 14px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-left: 10px;
+}
+
+select {
+  width: 120px;
+  font-size: 14px;
+  background: #fff
+    url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50%
+    no-repeat;
+  background-size: 20px 8px;
+  -webkit-appearance: none;
+  text-align: start;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: default;
+  font-family: Dotum, "돋움", Helvetica, sans-serif;
+}
+
+#gender span {
+  color: white;
+  font-size: 14px;
+}
+
+.email-form {
+  display: table;
+  width: 100%;
+}
+
+.email-form span {
+  color: white;
+  font-size: 14px;
+}
+
+#email_id {
+  font-size: 14px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin-right: 10px;
+}
+
+#email_domain {
+  font-size: 14px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 0 10px;
+}
+
+.email-form select {
+  width: 100px;
+  font-size: 14px;
+  background: #fff
+    url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50%
+    no-repeat;
+  background-size: 20px 8px;
+  -webkit-appearance: none;
+  text-align: start;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  cursor: default;
+  margin: 0;
+  font-family: Dotum, "돋움", Helvetica, sans-serif;
+}
+
 /*풋터 부분 CSS*/
 .footerlogo hr {
   border: 0px;

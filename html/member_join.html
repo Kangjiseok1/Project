@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript">   
+            $(document).ready( function() {
+                $("#headers").load("header.html");  // 원하는 파일 경로를 삽입하면 된다
+                $("#footers").load("footer.html");
+            });
+
+            /*이메일 도메일 선택*/
+            
+        </script>
+    </head>
+    <body>
+        <!-- 헤더 부분을 불러옴 -->
+        <div id="headers"></div>
+
+        <!-- 회원가입 페이지 구성-->
+        <div class="page-logo">
+            <a href="home.html"><img id="name" src="images/Kangjiseok.png"></a>
+        </div>
+        <div class="join-form">
+            <div class="content">
+                <form>
+                    <h3>아이디</h3>
+                    <input type="text" name="userid" class="text-field" placeholder="아이디" maxlength="20">
+                    <h3>비밀번호</h3>
+                    <input type="password" name="userpw1" class="text-field" placeholder="비밀번호" maxlength="20">
+                    <h3>비밀번호 확인</h3>
+                    <input type="password" name="userpw2" class="text-field" placeholder="비밀번호 확인" maxlength="20">
+                    <h3>이름</h3>
+                    <input type="text" name="username" class="text-field" placeholder="이름" maxlength="20">
+                    <h3>생년월일</h3>
+                    <div id="bir-form">
+                        <input type="text" name="userbir" id="bir-yy" placeholder="년(4자)" maxlength="4">
+                        <select id="dir-mm" class="sel">
+                            <option>월</option>
+                            <option value="01">1</option>
+                            <option value="02">2</option>
+                            <option value="03">3</option>
+                            <option value="04">4</option>
+                            <option value="05">5</option>
+                            <option value="06">6</option>
+                            <option value="07">7</option>
+                            <option value="08">8</option>
+                            <option value="09">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <input type="text" name="userbir" id="bir-dd" placeholder="일" maxlength="2">
+                    </div>
+                    <h3>성별</h3>
+                    <div id="gender">
+                        <input type="radio" name="gender" id="gender" value="man" checked><span>남</span>
+                        <input type="radio" name="gender" id="gender" value="woman"><span>여</span>
+                    </div>
+                    <h3>이메일</h3>
+                    <div class="email-form">
+                        <input type="text" id="email_id" name="email_id" class="form_w200" value="" title="이메일 아이디" placeholder="이메일" maxlength="18" ><span>@</span>
+                        <input type="text" id="email_domain" name="email_domain" class="form_w200" value="" title="도메인" maxlength="18"> 
+                        <select class="sel" title="이메일 도메인 주소 선택" onclick="setEmailDomain(this.value);return false;">
+                            <option value="">-선택-</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="gmail.com">gmail.com</option>
+                            <option value="hanmail.net">hanmail.net</option>
+                            <option value="hotmail.com">hotmail.com</option>
+                            <option value="korea.com">korea.com</option>
+                            <option value="nate.com">nate.com</option>
+                            <option value="yahoo.com">yahoo.com</option>
+                        </select>
+                    </div>
+                    <h3>전화번호</h3>
+                    <input type="tel" id="mobile" class="text-field" maxlength="16" placeholder="전화번호">
+                    <input type="submit" value="가입완료" class="submit-btn" id="btnjoin">
+                </form>
+            </div>
+        </div>
+
+        <!-- 풋터 부분을 불러옴 -->
+        <div id="footers"></div>
+    </body>
+</html>
